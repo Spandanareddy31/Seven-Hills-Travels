@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seven Hills Travels</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f2f2f2;
+    }
+    header {
+      background-color: #0077b6;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #023e8a;
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 20px;
+    }
+    .booking-form input, .booking-form select, .booking-form button {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+    }
+    footer {
+      background: #0077b6;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Seven Hills Travels</h1>
+    <p>Your Journey, Our Promise</p>
+  </header>
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#booking">Book Now</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <section id="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Local City Rides</li>
+      <li>Outstation Tours</li>
+      <li>Airport Pickup & Drop</li>
+      <li>Customized Tour Packages</li>
+    </ul>
+  </section>
+  <section id="booking">
+    <h2>Book Your Ride</h2>
+    <form class="booking-form">
+      <input type="text" placeholder="Full Name" required>
+      <input type="tel" placeholder="Phone Number" required>
+      <input type="text" placeholder="Pickup Location" required>
+      <input type="text" placeholder="Drop Location" required>
+      <input type="date" required>
+      <select required>
+        <option value="">Select Vehicle Type</option>
+        <option value="sedan">Sedan</option>
+        <option value="suv">SUV</option>
+        <option value="traveller">Tempo Traveller</option>
+      </select>
+      <button type="submit">Submit Booking</button>
+    </form>
+  </section>
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: sevenhillstravels@gmail.com</p>
+    <p>Phone: +91-XXXXXXXXXX</p>
+    <p>WhatsApp: <a href="https://wa.me/91XXXXXXXXXX">Chat Now</a></p>
+  </section>
+  <footer>
+    <p>&copy; 2025 Spandana Travels. All rights reserved.</p>
+  </footer>
+</body>
+</html>
